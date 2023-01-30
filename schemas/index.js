@@ -1,6 +1,7 @@
 import blockContent from './blockContent'
 import crewMember from './crewMember'
 import castMember from './castMember'
+import posts from './posts'
 import movie from './movie'
 import person from './person'
 import screening from './screening'
@@ -12,7 +13,7 @@ export const schemaTypes = [
   movie,
   person,
   screening,
-
+  posts,
   // Other types
   blockContent,
   plotSummary,
